@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
     background-color: indianred; height:700px;
     width: 100%;
     text-align: center;
