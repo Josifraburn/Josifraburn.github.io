@@ -1,0 +1,16 @@
+.contact {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: indianred; height:700px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    color: white;
+}
+

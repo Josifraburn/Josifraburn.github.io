@@ -1,0 +1,54 @@
+.body{
+    position: relative;
+    overflow-x: hidden;
+}
+.home{
+    position: relative;
+    background-color: #232323;
+    height: 700px;
+    width: 100%;
+    z-index: 3;
+    margin: 0 auto;
+}
+
+
+.home-logo-container {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.home-logo {
+    position:relative;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-bar {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+ul{
+ list-style: none;
+}
+
+li{
+    position: relative;
+    display: inline;
+    margin: 7px;
+    top: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: grey;
+}
+
+a:hover {
+    color: grey;
+}

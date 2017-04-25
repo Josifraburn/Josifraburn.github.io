@@ -1,0 +1,133 @@
+.work {
+    
+}
+
+.container {
+ display: flex;
+ width: 100%;
+}
+
+.redbox {
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+    width: 50%;
+    background-color: red;
+    transition: width .5s;
+    z-index: 2;
+}
+
+.redbox:hover {
+  width: 600%;
+  
+}
+
+.img1-text { 
+    position: relative;
+    width: 800px;
+    display: inline-block;
+    z-index: 1;
+    overflow: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    transform: translate(10px,720px); 
+}
+
+.img1 {
+    position: relative;
+    overflow: none;
+    height: 2000px;
+    width: 2000px;
+    transform: translate(-100px,-500px);
+}
+
+
+
+.bluebox {
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+    width: 50%;
+    background-color: blue;
+    transition: width .5s;
+    z-index: 2;
+}
+
+.bluebox:hover {
+  width: 600%
+}
+
+.img2 {
+    position: relative;
+    overflow: none;
+    height: 3000px;
+    width: 2000px; 
+    transform: translate(-400px, -800px);
+}
+
+.img2-text {
+    position: absolute;
+    width: 800px;
+    display: inline-block;
+    z-index: 1;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    transform: translate(10px,720px);
+}
+
+.greenbox {
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+    width: 50%;
+    transition: width .5s;
+    z-index: 2;
+}
+
+.greenbox:hover {
+  width: 600%;
+}
+
+.img3 {
+    height: 1000px;
+    transform: translate(0px,-40px)
+}
+
+.img3-text {
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    overflow: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    transform: translate(10px,720px);
+}
+
+.pinkbox {
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+    width: 50%;
+    transition: width .5s;
+    z-index: 2;
+}
+
+.pinkbox:hover {
+    width: 600%;
+}
+
+.img4 {
+    overflow: none;
+    height: 2000px;
+    transform: translate(0px, -650px)
+}
+
+.img4-text {
+    position: absolute;
+    width: 400px;
+    display: inline-block;
+    z-index: 1;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    transform: translate(10px,720px);
+}
