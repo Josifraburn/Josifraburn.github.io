@@ -21,3 +21,27 @@
   justify-content: space-between;
   justify-content: space-around;
 }
+
+.email-icon {
+   transition: all .3s ease-in-out;
+}
+
+.email-icon:hover {
+  transform: scale(.8);
+}
+
+.phone-icon {
+   transition: all .3s ease-in-out;
+}
+
+.phone-icon:hover {
+  transform: scale(.8);
+}
+
+.linkdin-icon {
+   transition: all .3s ease-in-out;
+}
+
+.linkdin-icon:hover {
+  transform: scale(.8);
+}
