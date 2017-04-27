@@ -1,5 +1,5 @@
 .about {
-    background-color: indianred; 
+    background-color: indianred;
     height: 700px;
     width: 100%;
 }
@@ -40,12 +40,12 @@
     height: 250px;
     width: 250px;
     border-radius: 50%;
+    transition: all .3s ease-in-out;
     -webkit-box-shadow: 2px 4px 49px 0px rgba(0,0,0,1);
     -moz-box-shadow: 2px 4px 49px 0px rgba(0,0,0,1);
     box-shadow: 2px 4px 49px 0px rgba(0,0,0,1);
 }
 
 .about-profile:hover {
-    height: 230px;
-    width: 230px;
+    transform: scale(.9);
 }
