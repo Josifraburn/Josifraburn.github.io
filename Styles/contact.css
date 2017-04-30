@@ -47,8 +47,9 @@
 }
 
 .icon-info {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Lato', sans-serif;
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -56,6 +57,14 @@
   justify-content: space-around;
 }
 
-p {
-  transform: translate(-50px, 0px);
+.email-name {
+  transform: translate(-38px, -30px);
+}
+
+.phone-name {
+  transform: translate(-75px, -30px);
+}
+
+.linkdin-name {
+  transform: translate(-23px, -30px);
 }
