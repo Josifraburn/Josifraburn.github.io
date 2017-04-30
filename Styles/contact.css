@@ -1,4 +1,4 @@
-.contact {
+#contact {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -62,9 +62,9 @@
 }
 
 .phone-name {
-  transform: translate(-75px, -30px);
+  transform: translate(-71px, -30px);
 }
 
 .linkdin-name {
-  transform: translate(-23px, -30px);
+  transform: translate(-25px, -30px);
 }

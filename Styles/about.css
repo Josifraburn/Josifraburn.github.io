@@ -1,4 +1,4 @@
-.about {
+#about {
     background-color: indianred;
     height: 700px;
     width: 100%;
@@ -29,16 +29,21 @@
     box-shadow: 2px 4px 49px 0px rgba(0,0,0,1);
 }
 
+.profile-img{
+  height: 300px;
+  width: 300px;
+}
+
 .about-profile {
     display: flex;
     justify-content: space-around;
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-    top: -27%;
+    top: -23%;
     left: -35%;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     transition: all .3s ease-in-out;
     -webkit-box-shadow: 2px 4px 49px 0px rgba(0,0,0,1);

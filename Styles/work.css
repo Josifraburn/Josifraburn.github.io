@@ -1,5 +1,5 @@
-.work {
-    
+#work {
+
 }
 
 .container {
@@ -19,10 +19,10 @@
 
 .redbox:hover {
   width: 600%;
-  
+
 }
 
-.img1-text { 
+.img1-text {
     position: relative;
     width: 800px;
     display: inline-block;
@@ -30,7 +30,7 @@
     overflow: none;
     font-family: 'Lato', sans-serif;
     font-size: 60px;
-    transform: translate(10px,720px); 
+    transform: translate(10px,720px);
 }
 
 .img1 {
@@ -61,7 +61,7 @@
     position: relative;
     overflow: none;
     height: 3000px;
-    width: 2000px; 
+    width: 2000px;
     transform: translate(-400px, -800px);
 }
 
